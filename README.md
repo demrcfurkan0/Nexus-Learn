@@ -63,7 +63,48 @@ We use Trello/Miro to manage our project workflow and tasks. You can access our 
 In this section, we document our progress and evaluations at the end of each sprint.
 
 ### Sprint 1 (Date Range: June 20 - July 6)
-- **Sprint Notes:**
-- **Sprint Review & Retrospective:**
-- **Screenshots:**
+Sprint notları
+
+Sprint boyunca takımın hedefi proje fikrini netleştirmek, görev dağılımlarını belirlemek ve proje sürecine hazırlık yapmaktı. Bu süreçte toplantılar düzenlenerek fikir alışverişinde bulunuldu ve genel bir proje planı oluşturuldu.
+
+1.Tamamlanması Tahmin Edilen Puan
+
+Her sprint için planlanan toplam puan: 150 puan 
+Sprint 1 özelinde tamamlanması tahmin edilen puan: 50 puandır
+
+2.Puan Tamamlama Mantığı
+
+Toplam proje süreci 150 puan üzerinden değerlendirilmiştir. Her sprintin eşit ağırlıkta olması kararlaştırılmış ve her biri 50 puan olarak belirlenmiştir.
+Görevlerin “Done” tanımına uygun şekilde tamamlanması durumunda ilgili sprint puanı verilmiştir.
+
+3.Ürün Durumu (Geliştirilen Özellikler & Ekran Görüntüleri)
+
+Bu sprintte somut bir ürün geliştirilmemiştir. Proje fikri üzerinde uzlaşılmış ve tasarım süreci için ön hazırlık yapılmıştır.
+
+![1](https://github.com/user-attachments/assets/31570a94-1b38-45d0-b525-477720c3c6e2)
+![2](https://github.com/user-attachments/assets/2a9e53e6-e168-48e1-9f98-4e1547db7f6e)
+![3](https://github.com/user-attachments/assets/3505368d-94cb-4df7-88ee-3fe541a54b78)
+
+4.Sprint Review
+
+Proje üzerinden geçilerek fikirler değerlendirildi. Mevcut demo arayüz üzerinden tasarımın geliştirilebilir yönleri tartışıldı. Roadmap oluşturuldu ve planlanan 4 component üzerine konuşuldu. Ayrıca frontend tasarımı ve kullanıcı arayüzü hakkında detaylı fikir alışverişi yapıldı.
+
+5.Sprint Review Katılımcıları:
+
+Ceren Güler, Furkan Demirci, Meltem Danışmaz
+Recai Ercan Eren, Efe Hakan Yıldız
+
+6.Sprint Retrospective
+
+--Takım içerisinde görev dağılımları yapıldı:
+
+Furkan: Developer
+Meltem: Developer
+Ercan: product owner
+Ceren: Scrum Master
+Efe: Developer
+
+--Haftalık toplantı gün ve saatleri belirlendi.
+
+--Zamanla karşılaşılabilecek tüm olası engeller ve sorunlar tartışıldı. Bunlara yönelik çözüm önerileri sunuldu ve not alındı.
 
