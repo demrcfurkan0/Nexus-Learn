@@ -66,6 +66,25 @@ In this section, we document our progress and evaluations at the end of each spr
 
 ### Sprint 1 (June 20 - July 6)
 
+## Sprint Notes
+
+The team's goal during the sprint was to clarify the project idea, assign tasks, and prepare for the project process.  
+Throughout this period, meetings were held to exchange ideas, and a general project plan was created.
+
+---
+## Sprint Board
+
+
+---
+## Daily Scrum
+![1](https://github.com/user-attachments/assets/ba8e976e-80dc-4cdd-8641-5f5ebf9c72ab)
+![2](https://github.com/user-attachments/assets/6cf1e416-5ef3-458a-8e75-0696a524fd83)
+![3](https://github.com/user-attachments/assets/e7be0541-8b26-423d-a5b9-1f77350c6d03)
+![4](https://github.com/user-attachments/assets/210a0bd0-ff8a-434a-8be7-da9c24999080)
+![5](https://github.com/user-attachments/assets/be749276-4357-4c4b-90cf-f3fce2ff44a3)
+
+---
+
 #### Sprint Goals
 The main goal of this sprint was to finalize the project idea, assign roles, and prepare for the development process. Several meetings were held to brainstorm, exchange ideas, and draft an overall project plan.
 
