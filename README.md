@@ -74,6 +74,8 @@ Throughout this period, meetings were held to exchange ideas, and a general proj
 ---
 ## Sprint Board
 
+![WhatsApp Görsel 2025-07-08 saat 00 22 25_66fa61c4](https://github.com/user-attachments/assets/c4da387b-9346-4d33-8c4c-8b18d6bc3b5b)
+
 
 ---
 ## Daily Scrum
