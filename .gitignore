@@ -1,0 +1,49 @@
+
+# Python derleme dosyaları
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ortam dosyaları
+.env
+*.env
+
+# Sanal ortam klasörü
+venv/
+ENV/
+env/
+.venv/
+
+# IDE klasörleri
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Çıkış dosyaları / loglar
+*.log
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# Pip cache
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# PyInstaller çıktısı
+*.spec
+
+# Test çıktıları
+coverage/
+htmlcov/
+.tox/
+.nox/
+
