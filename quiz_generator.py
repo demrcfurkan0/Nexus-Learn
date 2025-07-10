@@ -50,7 +50,7 @@ def generate_quiz(topic: str, question_count: int = 5):
 
 def run_quiz(quiz_data):
     score = 0
-    print("\n📊 Quiz Başlıyor!\n")
+    print("\n Quiz Başlıyor!\n")
 
     for i, soru in enumerate(quiz_data, 1):
         print(f"{i}. {soru['soru']}")
@@ -64,4 +64,4 @@ def run_quiz(quiz_data):
         else:
             print(f" Yanlış. Doğru cevap: {soru['dogru_cevap']}\n")
 
-    print(f"🎯 Sonuç: {score} / {len(quiz_data)} doğru yaptın.")
+    print(f" Sonuç: {score} / {len(quiz_data)} doğru yaptın.")

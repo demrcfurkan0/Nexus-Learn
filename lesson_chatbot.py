@@ -15,7 +15,6 @@ def start_lesson(topic: str):
         {"role": "user", "parts": [f"{topic} konusunu öğretmeye başla. Basit ve açık bir şekilde anlat."]},
     ])
 
-    # İlk açıklamayı gönder
     response = convo.send_message("Derse başla.")
     print("Gemini: ", response.text)
 

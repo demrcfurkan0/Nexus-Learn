@@ -28,13 +28,12 @@ def generate_learning_roadmap(user_goal: str):
     response = model.generate_content(prompt)
     text = response.text.strip()
 
-    # Kod bloğu varsa temizle
     json_text = re.sub(r"^```json|```$", "", text, flags=re.MULTILINE).strip()
 
     try:
         roadmap = json.loads(json_text)
         return roadmap
     except json.JSONDecodeError:
-        print("❌ AI düzgün JSON üretmedi. Gelen yanıt:\n")
+        print(" AI düzgün JSON üretmedi. Gelen yanıt:\n")
         print(text)
         return None
