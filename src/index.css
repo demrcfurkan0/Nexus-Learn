@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0A0F1A;
+  color: #E5E7EB;
+}
+
+.starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 4s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
+
+.glow-border {
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+}
+
+.constellation-line {
+  stroke: #00E5FF;
+  stroke-width: 2;
+  stroke-dasharray: 5, 5;
+  animation: constellation-pulse 3s ease-in-out infinite;
+}
+
+.expedition-card {
+  background: linear-gradient(135deg, rgba(22, 27, 41, 0.9) 0%, rgba(22, 27, 41, 0.7) 100%);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 229, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.expedition-card:hover {
+  border-color: #00E5FF;
+  transform: perspective(800px) rotateY(-5deg) translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 229, 255, 0.2);
+}
+
+.nav-pill {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-pill::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 229, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.nav-pill:hover::before {
+  left: 100%;
+}
