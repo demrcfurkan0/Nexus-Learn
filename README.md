@@ -140,3 +140,65 @@ No tangible product was developed during this sprint. The team focused on finali
 
 - Weekly meeting schedule was set.
 - Potential risks and challenges were identified, and possible solutions were discussed and documented.
+
+---
+### Sprint 2 
+
+
+#### 📝 *Sprint Notes*  
+The main goal of the team during this sprint was to finalize the project idea, assign roles, and prepare for the development process. During the meetings held in this period:
+- The project concept was detailed and refined  
+- The initial demo interface was analyzed, and areas for improvement were identified  
+- A roadmap focusing on 4 main components was created  
+- In-depth discussions were held and completed regarding frontend design and user experience elements  
+- All components were completed separately: backend, frontend, and AI  
+---
+
+### Sprint Board  
+link: https://miro.com/app/board/uXjVIjGomSQ=/
+
+---
+
+### Daily Scrum  
+Internal team communication was maintained via WhatsApp.  
+
+link: https://miro.com/app/board/uXjVIjGomSQ=/
+
+---
+
+### Sprint Goals  
+The main goal of this sprint was to enable the automatic generation of a personalized "roadmap" based on user-provided information and to complete the core infrastructure for dynamically activating interview scenarios once the roadmap is completed. This will offer an integrated experience where the user can follow their learning and development process step-by-step and transition to the next stages without manual intervention.
+
+---
+
+#### 🔢 *Estimated Points to be Completed During the Sprint*  
+| Task | Points |
+|------|--------|
+| Finalizing the project concept | 15 |
+| Completing role assignments | 10 |
+| Creating the roadmap | 15 |
+| Completing sprint planning | 10 |
+| *Total* | *50* |
+
+---
+
+#### 🧮 *Point Completion Logic*  
+- Total project points: *150*  
+- Each sprint was planned to carry equal weight: *50 points*  
+- Points were given based on the *Definition of Done* criteria:  
+  1. The task description is clear  
+  2. Deliverables are specified  
+  3. Approval from all team members  
+
+---
+
+#### 📊 *Product Status*  
+The product components were completed separately; AI integration has not yet been implemented. Final visuals are available at the link:  
+
+https://miro.com/app/board/uXjVIjGomSQ=/
+
+---
+
+### Sprint Review  
+In this sprint, the goal was to automatically generate a "roadmap" based on user inputs, and work was done on the integration of course completion and interview sections tied to this roadmap. The idea was adopted that, once the 15-step roadmap is completed, the user would try themselves in an interview scenario. It is aimed that the intervie
+
