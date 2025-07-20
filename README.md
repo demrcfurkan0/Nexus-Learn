@@ -202,3 +202,9 @@ https://miro.com/app/board/uXjVIjGomSQ=/
 ### Sprint Review  
 In this sprint, the goal was to automatically generate a "roadmap" based on user inputs, and work was done on the integration of course completion and interview sections tied to this roadmap. The idea was adopted that, once the 15-step roadmap is completed, the user would try themselves in an interview scenario. It is aimed that the intervie
 
+---
+
+#### ♻ *Sprint Retrospective*
+
+During this sprint, the team demonstrated strong collaboration and timely task completion across all components. Communication was clear and productive, contributing to a well-defined roadmap and project structure. However, improvements are needed in documenting potential risks and ensuring smoother integration planning, especially for upcoming AI modules.
+
