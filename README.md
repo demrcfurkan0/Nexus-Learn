@@ -74,8 +74,7 @@ Throughout this period, meetings were held to exchange ideas, and a general proj
 ---
 ## Sprint Board
 
-![WhatsApp Görsel 2025-07-08 saat 00 22 25_66fa61c4](https://github.com/user-attachments/assets/c4da387b-9346-4d33-8c4c-8b18d6bc3b5b)
-
+https://miro.com/app/board/uXjVIg09eeM=/
 
 ---
 ## Daily Scrum
@@ -107,9 +106,7 @@ Sprint points were awarded based on whether tasks met the **Definition of Done**
 #### Product Status (Features & Screenshots)
 No tangible product was developed during this sprint. The team focused on finalizing the project idea and preparing for the design phase.
 
-![1](https://github.com/user-attachments/assets/31570a94-1b38-45d0-b525-477720c3c6e2)
-![2](https://github.com/user-attachments/assets/2a9e53e6-e168-48e1-9f98-4e1547db7f6e)
-![3](https://github.com/user-attachments/assets/3505368d-94cb-4df7-88ee-3fe541a54b78)
+https://miro.com/app/board/uXjVIjGomSQ=/
 
 ---
 
