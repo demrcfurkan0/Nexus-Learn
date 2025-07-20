@@ -74,7 +74,7 @@ Throughout this period, meetings were held to exchange ideas, and a general proj
 ---
 ## Sprint Board
 
-https://miro.com/app/board/uXjVIg09eeM=/
+https://miro.com/app/board/uXjVIjGomSQ=/
 
 ---
 ## Daily Scrum
