@@ -74,12 +74,13 @@ Throughout this period, meetings were held to exchange ideas, and a general proj
 ---
 ## Sprint Board
 
-https://miro.com/app/board/uXjVIjGomSQ=/
+https://miro.com/app/board/uXjVJcOwSrs=/
 
 ---
 ## Daily Scrum
 
-https://miro.com/app/board/uXjVIjGomSQ=/
+https://miro.com/app/board/uXjVJcOwSrs=/
+
 ---
 
 #### Sprint Goals
@@ -102,7 +103,7 @@ Sprint points were awarded based on whether tasks met the **Definition of Done**
 #### Product Status (Features & Screenshots)
 No tangible product was developed during this sprint. The team focused on finalizing the project idea and preparing for the design phase.
 
-https://miro.com/app/board/uXjVIjGomSQ=/
+https://miro.com/app/board/uXjVJcOwSrs=/
 
 ---
 
@@ -148,14 +149,15 @@ The main goal of the team during this sprint was to finalize the project idea, a
 ---
 
 ### Sprint Board  
-link: https://miro.com/app/board/uXjVIjGomSQ=/
+
+https://miro.com/app/board/uXjVJcOwSrs=/
 
 ---
 
 ### Daily Scrum  
 Internal team communication was maintained via WhatsApp.  
 
-link: https://miro.com/app/board/uXjVIjGomSQ=/
+https://miro.com/app/board/uXjVJcOwSrs=/
 
 ---
 
@@ -188,7 +190,7 @@ The main goal of this sprint was to enable the automatic generation of a persona
 #### 📊 *Product Status*  
 The product components were completed separately; AI integration has not yet been implemented. Final visuals are available at the link:  
 
-https://miro.com/app/board/uXjVIjGomSQ=/
+https://miro.com/app/board/uXjVJcOwSrs=/
 
 ---
 
