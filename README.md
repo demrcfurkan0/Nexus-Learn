@@ -78,12 +78,8 @@ https://miro.com/app/board/uXjVIg09eeM=/
 
 ---
 ## Daily Scrum
-![1](https://github.com/user-attachments/assets/ba8e976e-80dc-4cdd-8641-5f5ebf9c72ab)
-![2](https://github.com/user-attachments/assets/6cf1e416-5ef3-458a-8e75-0696a524fd83)
-![3](https://github.com/user-attachments/assets/e7be0541-8b26-423d-a5b9-1f77350c6d03)
-![4](https://github.com/user-attachments/assets/210a0bd0-ff8a-434a-8be7-da9c24999080)
-![5](https://github.com/user-attachments/assets/be749276-4357-4c4b-90cf-f3fce2ff44a3)
 
+https://miro.com/app/board/uXjVIjGomSQ=/
 ---
 
 #### Sprint Goals
