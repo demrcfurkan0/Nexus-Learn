@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: .
+    container_name: nexus_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app_root/app
+    env_file:
+      - ./.env
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    container_name: nexus_mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

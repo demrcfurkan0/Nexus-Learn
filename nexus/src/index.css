@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-nexus-dark text-gray-200;
+  }
+  
+  :root {
+    --color-nexus-accent: 0 229 255; 
+  }
+}
+
+@layer components {
+  .auth-input {
+    @apply w-full pl-12 pr-4 py-3 text-lg bg-nexus-dark/50 rounded-lg border-2 border-gray-600 transition-all duration-300 placeholder-gray-500 text-gray-100 focus:outline-none focus:border-nexus-accent glow-border-focus;
+  }
+
+  .auth-button {
+    @apply w-full px-12 py-3 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-3 bg-nexus-accent text-nexus-dark hover:bg-nexus-accent/90 hover:scale-105;
+  }
+  
+  .expedition-card {
+    background: linear-gradient(135deg, rgba(22, 27, 41, 0.9) 0%, rgba(22, 27, 41, 0.7) 100%);
+    @apply backdrop-blur-lg border border-nexus-accent/20 transition-all duration-300;
+  }
+
+  .expedition-card:hover {
+    @apply border-nexus-accent;
+    transform: perspective(800px) rotateY(-5deg) translateY(-5px);
+    box-shadow: 0 20px 40px theme('colors.nexus.accent / 20%');
+  }
+
+  .nav-pill {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .nav-pill::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, theme('colors.nexus.accent / 20%'), transparent);
+    transition: left 0.5s;
+  }
+
+  .nav-pill:hover::before {
+    left: 100%;
+  }
+
+  .code-editor {
+    counter-reset: line;
+    @apply bg-nexus-dark rounded-lg;
+  }
+
+  .code-editor > textarea,
+  .code-editor > pre {
+    outline: none !important;
+    white-space: pre !important;
+    word-wrap: normal !important;
+    @apply text-base;
+  }
+}
+
+@layer utilities {
+  .starfield {
+    @apply fixed top-0 left-0 w-full h-full pointer-events-none -z-10;
+  }
+
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    @apply bg-white rounded-full;
+    animation: twinkle 4s ease-in-out infinite;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 10px theme('colors.nexus.accent / 50%');
+  }
+
+  .glow-border {
+    box-shadow: 0 0 20px theme('colors.nexus.accent / 30%');
+  }
+  
+  .glow-border-focus:focus {
+    box-shadow: 0 0 15px theme('colors.nexus.accent / 50%');
+  }
+
+  .constellation-line {
+    stroke: theme('colors.nexus.accent');
+    @apply stroke-2;
+    stroke-dasharray: 5, 5;
+    animation: constellation-pulse 3s ease-in-out infinite;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-700 rounded-full;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-600;
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* --- Code Editor Scroll Fix --- */
+.code-editor-container {
+  position: relative;
+  flex-grow: 1; 
+  overflow: auto; 
+  border-radius: 0.5rem; 
+  background-color: #101625; 
+}
+
+.code-editor-container > div,
+.code-editor-container textarea,
+.code-editor-container pre {
+  white-space: pre !important; 
+  word-wrap: normal !important;
+  overflow-wrap: normal !important;
+  min-width: 100%;
+  width: fit-content; 
+}
+
+
+/* --- YENİ EKLENEN AI RAPOR STİLLERİ --- */
+.markdown-content {
+  line-height: 1.7; 
+}
+
+.markdown-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  @apply text-nexus-accent glow-text;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid theme('colors.nexus.accent / 20%');
+}
+
+.markdown-content h3:first-child {
+  margin-top: 0;
+}
+
+.markdown-content p {
+  margin-bottom: 1rem;
+}
+
+.markdown-content ul {
+  list-style-type: none;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-content li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-content li::before {
+  content: '•';
+  @apply text-nexus-accent;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  position: absolute;
+  left: 0.75rem;
+}
+
+.markdown-content strong {
+  @apply text-white font-semibold;
+}
+
+.markdown-content hr {
+  border-color: theme('colors.nexus.accent / 30%');
+  margin: 2rem 0;
+}
+
+.markdown-content code {
+  background-color: #1a2238;
+  color: #ff6b6b;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9em;
+}
+
+.markdown-content pre {
+  background-color: #101625;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+  border: 1px solid theme('colors.nexus.accent / 20%');
+}
+
+.markdown-content pre code {
+  background-color: transparent;
+  padding: 0;
+  @apply text-gray-200;
+}
