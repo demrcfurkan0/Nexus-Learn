@@ -45,7 +45,7 @@ Nexus Learn, Google Gemini’nin gücünden yararlanarak bu sorunu çözer. Plat
 
 ---
 
-## Team Name: <!-- Takım adınızı buraya girin, örn. "AI Pioneers" -->
+## Team Adı: <!-- Takım adınızı buraya girin, örn. "AI Pioneers" -->
 
 ### Takım Üyeleri
 
@@ -58,15 +58,14 @@ Nexus Learn, Google Gemini’nin gücünden yararlanarak bu sorunu çözer. Plat
 
 ---
 
-## Project Management & Product Backlog
-
+## Proje Yönetimi ve Ürün Birikimi
 Projeyi ve görevleri yönetmek için Trello/Miro kullanıyoruz. Ayrıntılı Ürün Backlog’una aşağıdaki bağlantıdan ulaşabilirsiniz:
 
 **[Ürün Backlog Panosuna Git](https://miro.com/welcomeonboard/cnplZUFjVFYwN0w5dTF1NWwvZng1aUVXRCt4UDVPY05xRWN5ZkFwUkVIbDNoY24ybzJaSW50MlpDdjk2ZHZwbnJXS0tXV3VMTVdBanNNRlNKVlZmOUdvd1FKRzg3SFJUS1Z6bk4rVklNVmZWVzloeDJWYlNKVmxZdW1uckZzY0l3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=936424257854)**
 
 ---
 
-## Sprint Reports
+## Sprint Raporları
 
 Bu bölümde her sprint sonunda ilerlemelerimizi ve değerlendirmelerimizi belgeliyoruz.
 
@@ -313,6 +312,7 @@ Takım iletişimi güçlüydü ve görevler zamanında tamamlandı.
 Bununla birlikte, quiz modülünün performansında daha fazla optimizasyon yapılması gerektiği ve entegrasyon testlerinin artırılması gerektiği not edildi.
 
 ---
+
 
 
 
